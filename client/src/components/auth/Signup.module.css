@@ -1,0 +1,97 @@
+.signupFormContainer {
+    width: 100%;
+    margin-top:auto;
+    padding: 100px 15px 50px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .signinFormContainer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    
+  }
+
+  .signinFormContainer .form{
+    max-width: 500px;
+    padding: 30px 20px;
+  }
+  
+  .label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .input, .select {
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+  }
+  
+  .input:focus, .select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submitButton {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 480px) {
+    .signupFormContainer {
+      padding: 1.5rem;
+      padding-top: 100px;
+    }
+  
+    .heading {
+      font-size: 1.3rem;
+    }
+  }
+
+
+  .authFormLink{
+    margin: 20px 0px;
+  }
+  

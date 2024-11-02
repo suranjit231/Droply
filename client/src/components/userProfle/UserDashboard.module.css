@@ -1,0 +1,118 @@
+/* Container for the entire dashboard */
+.userDashboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #004445;
+    padding: 20px;
+    color: #333;
+    min-height: 100vh;
+
+    background: url("https://img.freepik.com/premium-photo/emphasizing-vital-role-advanced-filtration-clean-water-promoting-health-wellness_1082479-18433.jpg?semt=ais_hybrid");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+  }
+  
+  /* Title styling */
+  .dashboardTitle {
+    font-size: 2rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* User card container */
+  .userCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    
+  }
+  
+
+  .userName {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .userCard p {
+    margin: 5px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+ 
+  .orderTitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .orderTitle button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+  }
+
+  .orderTitle button:hover{
+    background-color: #06468a;
+    color: aliceblue;
+  }
+
+  .orderTitle button:active{
+    transform: scale(1.1);
+  }
+  
+  
+  .orderCard {
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .orderCard:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Order status colors */
+  .orderCard p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
+  
+  .orderCard p strong {
+    color: #555;
+  }
+  
+  .orderCard p:first-child {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .orderCard p:last-child {
+    font-style: italic;
+    color: #666;
+  }
+  
