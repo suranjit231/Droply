@@ -30,7 +30,7 @@
 ## Setup Instructions
 1. Clone the repository
 ```
-git clone https://github.com/your-username/dropley
+git clone https://github.com/suranjit231/Droply
 ```
 2. Navigate to backend for backend configuration first  ->
 ```
