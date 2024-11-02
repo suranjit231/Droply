@@ -103,7 +103,7 @@ npm start
 
 ### For api end points postmen collection ( please contact me if not working )
 ```
-My post men collerction url
+https://ss1111-5371.postman.co/workspace/ss-Workspace~901199f2-f649-4b4f-8c63-7403e9d5af16/collection/33172746-ffacf5a4-69e3-4264-a5cf-ff249ad21666?action=share&creator=33172746
 ```
 -------------------------------------------------------------------------------------------------------
 
