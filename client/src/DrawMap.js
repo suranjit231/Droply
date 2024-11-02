@@ -6,7 +6,7 @@ const containerStyle = { width: '100%', height: '100vh' };
 const center = { lat: 27.4656118, lng: 94.9022926 };
 
 function DeliveryRouteMap() {
-  const { isLoaded } = useJsApiLoader({ googleMapsApiKey: '' });
+  const { isLoaded } = useJsApiLoader({ googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY });
   const [directions, setDirections] = useState(null);
   const [isLoadingDirections, setIsLoadingDirections] = useState(true);
 
